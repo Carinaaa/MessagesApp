@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Database/app/src/main/res/layout/activity_main.xml" value="0.16041666666666668" />
+        <entry key="..\:/databasewithroom/app/src/main/res/layout/activity_main.xml" value="0.14635416666666667" />
+        <entry key="..\:/databasewithroom/app/src/main/res/layout/dialog_update.xml" value="0.124609375" />
+        <entry key="..\:/databasewithroom/app/src/main/res/layout/list_row_main.xml" value="0.2670940170940171" />
       </map>
     </option>
   </component>

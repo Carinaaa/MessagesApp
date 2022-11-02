@@ -10,12 +10,21 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:padding="16dp">
-        
+
+
         <TextView
-            android:layout_width="0dp"
+            android:id="@+id/text_view"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:id="@+id/text_view"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/date_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="this is date"
             android:textSize="14sp" />
 
         <ImageView

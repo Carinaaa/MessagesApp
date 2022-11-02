@@ -9,6 +9,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -19,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
     EditText editText;
     Button btAdd, btReset;
     RecyclerView recyclerView;
+    FloatingActionButton fltBtn;
 
     List<MessagesTable> dataList = new ArrayList<>();
     LinearLayoutManager linearLayoutManager;
@@ -29,11 +32,14 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.list_sms);
 
         editText = findViewById(R.id.edit_text_main);
         btAdd = findViewById(R.id.bt_add);
         btReset = findViewById(R.id.bt_reset);
+
+        fltBtn = findViewById(R.id.btn_new_message);
+        fltBtn.bringToFront();
         recyclerView = findViewById(R.id.recycler_view);
 
         //initialize database
